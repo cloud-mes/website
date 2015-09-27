@@ -18,17 +18,18 @@ Cloud-MES is licensed under the [new BSD license](license.html).
 - All commen MES transaction include and can extend
 
 {% for post in site.tags.news %}
----
-<a href="{{ post.url }}">
-<h3>{{ post.title }}</h3>
+
+
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <span class="date">
-<div class="dateday">{{ post.date | date: "%e" }}</div>
-<div>{{ post.date | date: "%b" }}</div>
-<div class="dateyear">{{ post.date | date: "%Y" }}</div>
+<span class="dateday">{{ post.date | date: "%e" }}</span>
+<span>{{ post.date | date: "%b" }}</span>
+<span class="dateyear">{{ post.date | date: "%Y" }}</span>
 </span>
-</a>
+
 
 {{ post.summary }}
+
 {% endfor %}
 <hr />
 
