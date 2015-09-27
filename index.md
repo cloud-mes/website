@@ -9,7 +9,7 @@ title: Introduction cloud-MES
 
 Cloud-MES is written in Ruby on Rails and can run quit well in Windows, Mac OS X and many Unix-like systems such as Linux and FreeBSD. Cloud-MES is also support many databse, including postgresql, mysql, Oracle or even MS SQL Server.
 
-Cloud-MES is licensed under the [new BSD license](license.html).
+Cloud-MES is licensed under the [new BSD license](https://github.com/cloud-mes/cloud-mes/blob/master/LICENSE.md).
 
 ### Features
 
